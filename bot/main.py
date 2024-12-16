@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from bot.env import discord_token
-from bot.keep_alive import keep_alive
 import os
 
 intents = discord.Intents.all()
@@ -29,5 +28,4 @@ async def sync(ctx):
 
 
 if __name__ == "__main__":
-    keep_alive()
     bot.run(discord_token)
