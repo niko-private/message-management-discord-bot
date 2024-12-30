@@ -22,6 +22,8 @@ A Python and MongoDB-based Discord bot for storing, managing, retrieving, and di
     SPECIAL_USER=your_special_user_id_here # Special message, irrelevant
     SPECIAL_PHRASE=your_special_phrase_here # Special message, irrelevant
     ```
+4. **Run the bot**  
+   In the `command prompt`, Navigate to the bot's directory using `cd path/to/message-management-discord-bot` and run `python -m bot.main`.
 
 ## Usage
 ### `/store`  
